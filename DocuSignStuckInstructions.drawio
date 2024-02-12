@@ -1,9 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2024-02-12T09:50:04.745Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.1" etag="6zVX41GfJOoAxLKYDrHQ" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-12T10:39:02.770Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="1mouxLbpqHpfchasPJSz" version="23.1.1" type="github">
   <diagram name="Page-1" id="zT4JeByvZtGIFtq0zUbu">
-    <mxGraphModel>
+    <mxGraphModel dx="906" dy="1714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-1" value="Draft -&amp;gt; Docusign Creation process for an &lt;b&gt;invest&lt;/b&gt;&amp;nbsp;instruction" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="110" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-2" target="pyO-_Wrlsn7nvp1Dqm6k-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-3" target="pyO-_Wrlsn7nvp1Dqm6k-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-3" value="Submit instruction with docusign uploaded on web" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-5" target="pyO-_Wrlsn7nvp1Dqm6k-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-5" value="WEB.InvestController.SubmitLisp" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="200" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-7" target="pyO-_Wrlsn7nvp1Dqm6k-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-11" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pyO-_Wrlsn7nvp1Dqm6k-10">
+          <mxGeometry x="-0.3191" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-7" value="investReviewAndSubmitTab.followDigitalApprovalProcess?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="167.5" width="240" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-9" target="pyO-_Wrlsn7nvp1Dqm6k-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-9" value="WEB.InstructionsClient.SubmitLispInvestInstruction" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="405" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-12" target="pyO-_Wrlsn7nvp1Dqm6k-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-12" value="Transaction.SubmitLispInvestInstruction" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="382.5" width="220" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-14" value="EnrichInvestRequest" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="382.5" width="220" height="105" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
