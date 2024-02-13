@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-12T13:50:49.184Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="ZxNkIdDreK4ipxWQb0wA" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-13T08:23:06.474Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="YRRT-Vvjm3rdbFmmnfNU" version="23.1.1" type="github">
   <diagram name="Page-1" id="zT4JeByvZtGIFtq0zUbu">
-    <mxGraphModel dx="3443" dy="1425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2762" dy="1040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,50 +33,31 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-7" value="investReviewAndSubmitTab.followDigitalApprovalProcess?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="167.5" width="240" height="125" as="geometry" />
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-7" value="investReviewAndSubmitTab.followDigitalApprovalProcess &amp;amp;&amp;amp;investReviewAndSubmitTab.InvestorApprovalRequired?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="725" y="167.5" width="430" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-9" target="pyO-_Wrlsn7nvp1Dqm6k-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-9" value="WEB.InstructionsClient.SubmitLispInvestInstruction" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="405" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-12" target="pyO-_Wrlsn7nvp1Dqm6k-16">
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-9" target="pyO-_Wrlsn7nvp1Dqm6k-61">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="330" y="435" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="370" y="435" />
-              <mxPoint x="370" y="436" />
-            </Array>
+            <mxPoint x="630" y="435" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-12" value="Transaction.SubmitLispInvestInstruction" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="382.5" width="220" height="105" as="geometry" />
-        </mxCell>
-        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-16" target="pyO-_Wrlsn7nvp1Dqm6k-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-16" value="EnrichInvestRequest" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="405" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-18" value="EnrichRequestBrokerAndAdvisorDetails" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="135" y="545" width="230" height="60" as="geometry" />
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-9" value="WEB.InstructionsClient.SubmitForDigitalSignature" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="410" width="320" height="65" as="geometry" />
         </mxCell>
         <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-20" value="Looks like we eventually hit&amp;nbsp;DocuSign/send-for-signature in DigitalSignatures" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="1920" width="240" height="80" as="geometry" />
+          <mxGeometry x="-637.5" y="647.5" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-21" target="pyO-_Wrlsn7nvp1Dqm6k-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-21" value="FunctionApp.DocuSignClientSingleton.SendRequestToDocuSignService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="155" y="1810" width="210" height="60" as="geometry" />
+          <mxGeometry x="-715" y="527.5" width="395" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-23" target="pyO-_Wrlsn7nvp1Dqm6k-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-23" value="FunctionApp.DocuSignEntryPoint" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="1700" width="120" height="60" as="geometry" />
+          <mxGeometry x="-612.5" y="402.5" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-26" target="pyO-_Wrlsn7nvp1Dqm6k-27">
           <mxGeometry relative="1" as="geometry" />
@@ -138,10 +119,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-42" value="Grabs the DocuSign instruction document from Cosmos via instructionRepository.GetInstructionsFromCosmosByEnvelopeId" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="500" y="1240" width="380" height="70" as="geometry" />
+          <mxGeometry x="560" y="1225" width="380" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-44" value="So our incorrect instruction already exists at this point" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1180" width="170" height="30" as="geometry" />
+          <mxGeometry x="560" y="1180" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-45" target="pyO-_Wrlsn7nvp1Dqm6k-40">
           <mxGeometry relative="1" as="geometry" />
@@ -156,9 +137,9 @@
           <mxGeometry x="125" y="810" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-49" value="DocuSignService.ProcessEnvelopeStatusAsync&lt;br&gt;&lt;i&gt;there are two overloads for this method&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="690" width="260" height="60" as="geometry" />
+          <mxGeometry x="-645" y="1190" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-49" target="pyO-_Wrlsn7nvp1Dqm6k-47">
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-49" target="pyO-_Wrlsn7nvp1Dqm6k-47">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="330" y="1370" as="sourcePoint" />
             <mxPoint x="380" y="1320" as="targetPoint" />
@@ -168,22 +149,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-52" value="DigitalSignatures.DocuSignController.EnvelopeStatusWebHook" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-410" y="570" width="370" height="60" as="geometry" />
+          <mxGeometry x="-700" y="1030" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-54" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.472;exitY=0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-52" target="pyO-_Wrlsn7nvp1Dqm6k-55">
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-54" value="" style="endArrow=none;html=1;strokeWidth=2;rounded=0;exitX=0.472;exitY=0.014;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-52" target="pyO-_Wrlsn7nvp1Dqm6k-55">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="760" as="sourcePoint" />
-            <mxPoint x="-520" y="230" as="targetPoint" />
+            <mxPoint x="-130" y="1270" as="sourcePoint" />
+            <mxPoint x="-900" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-55" value="DocuSign response" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="-580" y="160" width="120" height="80" as="geometry" />
+          <mxGeometry x="-580" y="840" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-56" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-18" target="pyO-_Wrlsn7nvp1Dqm6k-55">
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-60" target="pyO-_Wrlsn7nvp1Dqm6k-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-60" value="Transactions.InstructionService.QueueForDigitalSignature&lt;br&gt;&lt;i&gt;this is where we hit / send a message to the DocuSign function app queue&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="412.5" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-61" target="pyO-_Wrlsn7nvp1Dqm6k-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-61" value="Transactions.SignaturePageController.QueueForDigitalSignature" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="408.75" width="380" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.521;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-20" target="pyO-_Wrlsn7nvp1Dqm6k-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-65" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pyO-_Wrlsn7nvp1Dqm6k-66" target="pyO-_Wrlsn7nvp1Dqm6k-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-80" y="405" as="sourcePoint" />
-            <mxPoint x="-30" y="355" as="targetPoint" />
+            <mxPoint x="870" y="600" as="sourcePoint" />
+            <mxPoint x="740" y="540" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pyO-_Wrlsn7nvp1Dqm6k-66" value="Here we pass in an investRequestDto&lt;br&gt;&lt;br&gt;The investRequestDto contains AuthorizedPersronaDetails" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="810" y="620" width="200" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
